@@ -1,0 +1,93 @@
+@charset "utf-8"; 
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 18, 2023, 1:02:28 PM
+    Author     : ayanaaiken
+*/
+/* header styles */
+
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  bisque;
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery {
+    
+   float: left;
+   margin-right: 10px;
+   padding-bottom:15px;
+   margin-bottom: auto;
+   
+}
+div {
+    overflow-x: auto;
+    overflow-y:  scroll;
+   
+}
+
+nav {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 10px;
+}
+/* Style the navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+/* Style the dropdown */
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 10px;
+   
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+   
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+}

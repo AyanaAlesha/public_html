@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 17, 2023, 10:09:50 PM
+    Author     : ayanaaiken
+*/
+
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+  background-color: blanchedalmond;
+  
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 10px;
+}
+/* Style the navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+/* Style the dropdown */
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 10px;
+   
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;;
+   
+}
+
+section  h2 {
+    text-align:  center;
+    color: cadetblue;
+   
+    
+}
+.contactinfo  {
+    float: right;
+    display: inline-block;
+    margin: 25px 30px;
+    padding: 25px 30px;
+   background-color: white;
+  
+  
+}
+section h2 {
+    color: cadetblue;
+}
+p {
+    font-size: 120%;
+}
+img {
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 16px;
+}
+
+   
+.container {
+    float:left;
+    margin: 25px 50px  60px;
+    padding: 25px 50px 60px;
+    display: flex;
+} 
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #FFF;
+    padding: 1px;
+    text-align: center;
+}

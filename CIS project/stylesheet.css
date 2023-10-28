@@ -1,0 +1,153 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 5, 2023, 3:33:14 AM
+    Author     : ayanaaiken
+*/
+
+body {
+    font-family: Times New Roman, sans-serif;
+    margin: 0;
+    padding: 0;
+  background-color: blanchedalmond;
+  
+}
+
+header {
+    background-color: #007BFF;
+    color: #FFF;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 10px;
+}
+/* Style the navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+/* Style the dropdown */
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    border: 1px solid #ddd;
+    padding: 10px;
+   
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+section img {
+   display: block;
+    float: left;
+    padding: 3px;
+    padding-top: 5px;
+    margin: auto;
+    
+}
+section h2 {
+    text-align: center;
+    font-size: 200%;
+    color: cornflowerblue;
+    border: 1px solid  darkcyan;
+    background-color: bisque;
+}
+.content h2 {
+    display:  block;
+    background-color: antiquewhite;
+    border: 1px solid red;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.projects  h2 {
+    background-color: black;
+    border: 1px solid  crimson;
+    margin:auto;
+    padding:auto;
+}
+.programs h2 {
+    background-color: bisque;
+    border: 1px solid  darkcyan;
+    margin:auto auto;
+    padding: auto;
+}
+
+ div.software {
+   
+     float: left;
+     border: 3px solid  darkolivegreen;
+     margin: 0;
+     padding:3px;
+    
+    
+ }
+ div.desc {
+     text-align:  center;
+     padding: 1px;
+ }
+ div.left{
+     
+     border: 3px solid darkolivegreen;
+     float: left;
+      margin-left: 2px;
+     margin-bottom: 2px;
+     padding: 1px;
+    
+ }
+ * {
+     box-sizing:  border-box;
+     
+ }
+.programs {
+     float: left;
+    margin: 20px; 
+ }
+ div.right {
+     float: left;
+     border: 3px solid forestgreen;
+     margin: 40px;
+     margin-left: 4px;
+     
+ }
+ div.nextInLine {
+  float: left;
+    border: 3px solid  lightslategray;
+    margin-left: 20px;
+    display: block;
+ }
+ 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+}
